@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+}
+
+h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 64px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  justify-content: space-between;
+  align-self: center;
+  text-align: center;
+}
+
+nav h4 {
+  color: #033da5;
+  font-weight: bolder;
+}
+
+.left-nav {
+  display: flex;
+  align-self: center;
+}
+
+.left-nav h4 {
+  padding: 0 20px;
+  align-self: center;
+  margin: 0;
+}
+
+.left-nav i {
+  margin: 0 50px 0 30px;
+  font-size: 50px;
+}
+
+.right-nav {
+  display: flex;
+  align-self: center;
+}
+
+.right-nav h4 {
+  padding: 0 20px;
+  align-self: center;
+  margin: 0;
+}
+
+.right-nav strong {
+  padding: 0 20px;
+  font-family: "Montserrat", sans-serif;
+  align-self: center;
+}
+
+button {
+  margin: 0 50px 0 20px;
+  padding: 20px 25px;
+  background-color: #033da5;
+  color: white;
+  border-radius: 10%;
+}
+
+.main-banner {
+  color: black;
+  display: inline-grid;
+  grid-template-columns: 1fr 2fr;
+  width: 100%;
+  height: 60vh;
+}
+
+.headline {
+  grid-column: 1 / span 1;
+  background: #033da5;
+  height: 100%;
+  color: white;
+  align-self: center;
+  padding: 0 60px 0 50px;
+  margin: auto;
+  align-self: center;
+  align-content: center;
+}
+
+.headlines {
+  align-self: center;
+  align-self: center;
+  align-content: center;
+}
+
+.headline h1,
+p {
+  align-self: center;
+}
+
+.headlines button {
+  margin: 40px 0 0 0;
+  display: flex;
+  background: #03307e;
+  border: none;
+  box-shadow: black 2px 2px 2px;
+  border-radius: 10px;
+}
+
+.headlines button p {
+  padding-right: 10px;
+  align-self: center;
+  font-size: 20px;
+}
+
+.headlines button i {
+  align-self: center;
+  font-size: 20px;
+}
+
+.photo-wheel {
+  grid-column: 2 / span 1;
+  background-image: url(./Images/banner1);
+  background-position: center;
+  background-size: cover;
+}
+
+.main-banner img {
+  width: 100%;
+}
+
+.bottom {
+  width: 100%;
+  height: 40vh;
+  background-color: #faf0e7;
+}
