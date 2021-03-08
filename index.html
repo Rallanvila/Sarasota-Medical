@@ -6,21 +6,22 @@
     <title>Sarasota Medical</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed&display=swap" rel="stylesheet">
-<script src="https://kit.fontawesome.com/d7ee0cd118.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;600&family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d7ee0cd118.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="flex-container">
         <div class="left-nav">
-            <i class="fas fa-file-medical-alt"></i>
-            <h4>Home</h4>
-            <h4>About</h4>
-            <h4>Treatments</h4>
-            <h4>Blog</h4>
-            <h4>Find a Doctor</h4>
+            <img src="./Images/Sarasota Medical Logo.png" alt="">
+            <p>Home</p>
+            <p>About</p>
+            <p>Treatments</p>
+            <p>Blog</p>
+            <p>Find a Doctor</p>
+            <p>Contact</p>
         </div>
         <div class="right-nav">
-            <h4>Call Us:</h4>
+            <p>Call Us:</p>
             <strong>1-877-799-9486</strong>
             <button>Book Appointment</button>
         </div>
@@ -29,18 +30,57 @@
         <div class="main-banner">
             <div class="headline flex-container">
                 <div class="headlines">
-                    <h5>Comfortable Care.</h5>
-                    <h1>Caring For You</h1>
-                    <h1>And Your Family.</h1>
-                    <h4>Passionate about Medicine, Compassionate About People. We are here for you.</h4>
-                    <button>
+                    <p>Comfortable Care.</p>
+                    <h1>Caring For You
+                    And Your Family.</h1>
+                    <p>Passionate about Medicine, Compassionate About People. We are here for you.</p>
+                    <button class="find-a-doctor">
                         <p>Find a Doctor</p>
                         <i class="fas fa-angle-double-right"></i>
                     </button>
                 </div>
             </div>
-            <div class="photo-wheel"></div>
+            <div class="slide" name="slide"></div>
         </div>
-    </main>    
+        <section class="three-pillars">
+            <div class="section1">
+                <img src="./Images/medicine.svg" alt="">
+                <div class="section-text">
+                    <h4>The Power to Heal.</h4>
+                    <p>The art of medicine consists of amusing the patient while nature cures the disease</p>
+                </div>
+            </div>
+            <div class="section2">
+                <img src="./Images/hospital-2.svg" alt="">
+                <div class="section-text">
+                    <h4>You Deserve Health.</h4>
+                    <p>Medical breakthroughs can happen by regular meditation and exercising.</p>
+                </div>
+            </div>
+            <div class="section3">
+                <img src="./Images/diagnosis.svg" alt="">
+                <div class="section-text">
+                    <h4>Healing Presence.</h4>
+                    <p>People with good health are rich than wealthy but unhealthy people</p>
+                </div>
+            </div>
+        </section>
+        <section class="flex-container">
+            <div class="photo-grid-header">
+                <p>LEADING MEDICINE</p>
+                <H2>We Take Your Health Seriously</H2>
+            </div>
+        </section>
+        <section class="photo-grid">
+            <div class="photo-grid-section1">
+                <img src="./Images/banner1" alt="">
+                <h4>Highest Quality Care.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, commodi.</p>
+            </div>
+
+
+        </section>
+    </main>  
+    <script src="./script.js"></script>  
 </body>
 </html>
