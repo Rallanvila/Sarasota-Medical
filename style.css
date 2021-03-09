@@ -1,10 +1,10 @@
 * {
-  padding: 0;
-  margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 .flex-container {
-  display: flex;
+	display: flex;
 }
 
 h1,
@@ -13,385 +13,445 @@ h3,
 h4,
 h5,
 p {
-  opacity: 0.8;
+	opacity: 0.8;
 }
 
 h1 {
-  font-family: "Fira Sans", sans-serif;
-  font-size: 60px;
+	font-family: "Fira Sans", sans-serif;
+	font-size: 60px;
 }
 
 h2 {
-  font-family: "Fira Sans", sans-serif;
-  font-size: 48px;
+	font-family: "Fira Sans", sans-serif;
+	font-size: 48px;
 }
 
 h3 {
-  font-family: "Fira Sans", sans-serif;
-  font-size: 36px;
+	font-family: "Fira Sans", sans-serif;
+	font-size: 36px;
 }
 
 h4 {
-  font-family: "Fira Sans", sans-serif;
-  font-size: 24px;
-  /* margin-top: 40px; */
+	font-family: "Fira Sans", sans-serif;
+	font-size: 24px;
+	/* margin-top: 40px; */
 }
 
 h5 {
-  font-family: "Fira Sans", sans-serif;
-  font-size: 20px;
-  padding: 0 0 5px 10px;
+	font-family: "Fira Sans", sans-serif;
+	font-size: 20px;
+	padding: 0 0 5px 10px;
 }
 
 p {
-  font-family: "Open Sans", sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 /* =================== NAV ================= */
 nav {
-  width: 100%;
-  height: 100px;
-  justify-content: space-between;
-  align-self: center;
-  text-align: center;
+	width: 100%;
+	height: 100px;
+	justify-content: space-between;
+	align-self: center;
+	text-align: center;
 }
 
 nav p {
-  color: #033da5;
-  font-weight: bolder;
+	color: #033da5;
+	font-weight: bolder;
 }
 
 .left-nav {
-  display: flex;
-  align-self: center;
+	display: flex;
+	align-self: center;
 }
 
 .left-nav p {
-  padding: 0;
-  align-self: center;
-  margin: 0 20px;
-  cursor: pointer;
+	padding: 0;
+	align-self: center;
+	margin: 0 20px;
+	cursor: pointer;
 }
 
 .left-nav img {
-  margin: 0 50px 0 30px;
-  height: 60px;
+	margin: 0 50px 0 30px;
+	height: 60px;
 }
 
 .right-nav {
-  display: flex;
-  align-self: center;
+	display: flex;
+	align-self: center;
 }
 
 .right-nav h4 {
-  padding: 0 20px;
-  align-self: center;
-  margin: 0;
+	padding: 0 20px;
+	align-self: center;
+	margin: 0;
 }
 
 .right-nav strong {
-  padding: 0 20px;
-  font-family: "Open Sans", sans-serif;
-  align-self: center;
-  font-size: 20px;
+	padding: 0 20px;
+	font-family: "Open Sans", sans-serif;
+	align-self: center;
+	font-size: 20px;
 }
 
 button {
-  margin: 0 50px 0 20px;
-  padding: 20px 25px;
-  background-color: #033da5;
-  color: white;
-  border-radius: 10%;
-  border: none;
-  cursor: pointer;
+	margin: 0 50px 0 20px;
+	padding: 20px 25px;
+	background-color: #033da5;
+	color: white;
+	border-radius: 10%;
+	border: none;
+	cursor: pointer;
 }
 
 /* ================= Main Banner ================ */
 .main-banner {
-  color: black;
-  display: inline-grid;
-  grid-template-columns: 1fr 2fr;
-  width: 100%;
-  height: 70vh;
+	color: black;
+	display: inline-grid;
+	grid-template-columns: 1fr 2fr;
+	width: 100%;
+	height: 70vh;
 }
 
 .headline {
-  grid-column: 1 / span 1;
-  background: #033da5;
-  height: 100%;
-  color: white;
-  align-self: center;
-  padding: 0 60px 0 50px;
-  margin: auto;
-  align-self: center;
-  align-content: center;
+	grid-column: 1 / span 1;
+	background: #033da5;
+	height: 100%;
+	color: white;
+	align-self: center;
+	padding: 0 60px 0 50px;
+	margin: auto;
+	align-self: center;
+	align-content: center;
 }
 
 .headlines {
-  align-self: center;
-  align-self: center;
-  align-content: center;
+	align-self: center;
+	align-self: center;
+	align-content: center;
 }
 
 .headline h1,
 p {
-  align-self: center;
+	align-self: center;
 }
 
 .headlines h1 {
-  margin: 35px 0 40px 0;
+	margin: 35px 0 40px 0;
 }
 
 .headlines p {
-  opacity: 0.9;
+	opacity: 0.9;
 }
 
 .headlines button {
-  margin: 40px 0 0 0;
-  display: flex;
-  background: #03307e;
-  border: none;
-  border-radius: 10px;
+	margin: 40px 0 0 0;
+	display: flex;
+	background: #03307e;
+	border: none;
+	border-radius: 10px;
 }
 
 .headlines button p {
-  padding-right: 10px;
-  align-self: center;
-  font-size: 20px;
+	padding-right: 10px;
+	align-self: center;
+	font-size: 20px;
 }
 
 .headlines button i {
-  align-self: center;
-  font-size: 20px;
+	align-self: center;
+	font-size: 20px;
 }
 
 .slide {
-  grid-column: 2 / span 1;
-  background-image: url(./Images/banner1);
-  background-position: center;
-  background-size: cover;
+	grid-column: 2 / span 1;
+	background-image: url(./Images/banner1);
+	background-position: center;
+	background-size: cover;
 }
 
 .main-banner img {
-  width: 100%;
+	width: 100%;
 }
 
 /* ====================== THREE PILLARS ============ */
 .three-pillars {
-  width: 100%;
-  height: 20vh;
-  background-color: #faf0e7;
-  display: inline-grid;
-  grid-template-columns: 1fr 1fr 1fr;
+	width: 100%;
+	height: 20vh;
+	background-color: #faf0e7;
+	display: inline-grid;
+	grid-template-columns: 1fr 1fr 1fr;
 }
 
 .three-pillars img {
-  height: 75px;
-  align-self: center;
+	height: 75px;
+	align-self: center;
 }
 
 .section1 {
-  grid-column: 1 / span 1;
-  display: flex;
-  align-content: center;
-  justify-content: center;
+	grid-column: 1 / span 1;
+	display: flex;
+	align-content: center;
+	justify-content: center;
 }
 
 .section2 {
-  grid-column: 2 / span 1;
-  display: flex;
-  align-content: center;
-  justify-content: center;
+	grid-column: 2 / span 1;
+	display: flex;
+	align-content: center;
+	justify-content: center;
 }
 
 .section3 {
-  grid-column: 3 / span 1;
-  display: flex;
-  align-self: center;
+	grid-column: 3 / span 1;
+	display: flex;
+	align-self: center;
 }
 
 .section-text {
-  width: 300px;
-  padding: 0 0 0 30px;
-  height: 75px;
+	width: 300px;
+	padding: 0 0 0 30px;
+	height: 75px;
 }
 
 .section-text h4 {
-  padding: 0 0 10px 0;
-  margin: 0;
+	padding: 0 0 10px 0;
+	margin: 0;
 }
 
 .section1,
 .section2,
 .section3 img {
-  align-self: center;
+	align-self: center;
 }
 
 /* ================== PHOTO GRID ================ */
 
 .photo-grid-header {
-  display: flex;
-  height: 20vh;
-  flex-direction: column;
-  align-self: center;
-  justify-content: center;
-  text-align: center;
-  width: 100%;
+	display: flex;
+	height: 20vh;
+	flex-direction: column;
+	align-self: center;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
 }
 
 .photo-grid {
-  display: grid;
-  width: 1300px;
-  height: 80vh;
-  margin: auto;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  column-gap: 15px;
+	display: grid;
+	width: 1300px;
+	height: 80vh;
+	margin: auto;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	column-gap: 15px;
 }
 
 .photo-grid h4 {
-  padding: 10px 0;
+	padding: 10px 0;
 }
 
 .photo-grid p {
-  opacity: 0.5;
+	opacity: 0.5;
 }
 .photo-grid img {
-  width: 100%;
+	width: 100%;
 }
 
 .photo-grid-section1 {
-  grid-column: 1 / span 1;
-  align-self: center;
-  line-height: 26px;
+	grid-column: 1 / span 1;
+	align-self: center;
+	line-height: 26px;
 }
 
 .photo-grid-section2 {
-  grid-column: 2 / span 1;
-  align-self: center;
-  line-height: 26px;
+	grid-column: 2 / span 1;
+	align-self: center;
+	line-height: 26px;
 }
 
 .photo-grid-section3 {
-  grid-column: 3 / span 1;
-  align-self: center;
-  line-height: 26px;
+	grid-column: 3 / span 1;
+	align-self: center;
+	line-height: 26px;
 }
 
 .photo-grid-section4 {
-  grid-column: 1 / span 1;
-  grid-row: 2 / span 1;
-  align-self: center;
-  line-height: 26px;
+	grid-column: 1 / span 1;
+	grid-row: 2 / span 1;
+	align-self: center;
+	line-height: 26px;
 }
 
 .photo-grid-section5 {
-  grid-column: 2 / span 1;
-  grid-row: 2 / span 1;
-  align-self: center;
-  line-height: 26px;
+	grid-column: 2 / span 1;
+	grid-row: 2 / span 1;
+	align-self: center;
+	line-height: 26px;
 }
 
 .photo-grid-section6 {
-  grid-column: 3 / span 1;
-  align-self: center;
-  grid-row: 2 / span 1;
-  line-height: 26px;
+	grid-column: 3 / span 1;
+	align-self: center;
+	grid-row: 2 / span 1;
+	line-height: 26px;
 }
 
 /* =============== Footer ============= */
 footer {
-  width: 100%;
-  display: flex;
-  color: white;
-  background-color: #033da5;
-  height: 45vh;
-  align-self: center;
+	width: 100%;
+	display: flex;
+	color: white;
+	background-color: #033da5;
+	height: 45vh;
+	align-self: center;
 }
 
 .footer-grid {
-  display: grid;
-  width: 1300px;
-  margin: auto;
-  grid-template-columns: repeat(4, 325px);
-  color: white;
-  background-color: #033da5;
-  height: 335px;
+	display: grid;
+	width: 1300px;
+	margin: auto;
+	grid-template-columns: repeat(4, 325px);
+	color: white;
+	background-color: #033da5;
+	height: 335px;
 }
 
 .footer-section1 {
-  grid-column: 1 / span 1;
+	grid-column: 1 / span 1;
 }
 
 .footer-section1 p {
-  width: 60%;
-  margin: 20px 0;
-  padding: 0;
+	width: 60%;
+	margin: 20px 0;
+	padding: 0;
 }
 
 .footer-section1 i {
-  font-size: 20px;
-  margin: 20px 15px 0 0;
-  cursor: pointer;
+	font-size: 20px;
+	margin: 20px 15px 0 0;
+	cursor: pointer;
 }
 
 .footer-section2 h5,
 p {
-  padding-left: 10px;
+	padding-left: 10px;
 }
 .footer-section2 {
-  grid-column: 2 / span 1;
+	grid-column: 2 / span 1;
 }
 
 .footer-section2 p {
-  margin: 30px 0;
-  cursor: pointer;
-  padding: 0;
-  cursor: pointer;
+	margin: 30px 0;
+	cursor: pointer;
+	padding: 0;
+	cursor: pointer;
 }
 
 .blog-post {
-  display: flex;
-  margin: 30px 0;
-  cursor: pointer;
+	display: flex;
+	margin: 30px 0;
+	cursor: pointer;
 }
 .blog-post img {
-  height: 50px;
+	height: 50px;
 }
 
 .blog-text {
-  align-self: center;
+	align-self: center;
 }
 
 .footer-section4 form {
-  align-self: center;
+	align-self: center;
 }
 
 .footer-section4 input {
-  background-color: #012e7e;
-  color: white;
-  font-size: 16px;
-  padding: 15px 100px 15px 10px;
-  border: none;
-  align-self: center;
+	background-color: #012e7e;
+	color: white;
+	font-size: 16px;
+	padding: 15px 100px 15px 10px;
+	border: none;
+	align-self: center;
 }
 
 .footer-section4 i {
-  font-size: 25px;
-  align-self: center;
-  justify-content: center;
-  text-align: center;
-  color: #033da5;
-  background-color: white;
-  display: flex;
-  margin: auto;
-  cursor: pointer;
+	font-size: 25px;
+	align-self: center;
+	justify-content: center;
+	text-align: center;
+	color: #033da5;
+	background-color: white;
+	display: flex;
+	margin: auto;
+	cursor: pointer;
 }
 
 .form-group {
-  display: flex;
-  background-color: white;
-  height: auto;
-  margin-top: 30px;
-  align-self: center;
-  cursor: pointer;
+	display: flex;
+	background-color: white;
+	height: auto;
+	margin-top: 30px;
+	align-self: center;
+	cursor: pointer;
+}
+
+/* =============== Skeleton =============== */
+.skeleton {
+	display: inline-grid;
+	grid-template-columns: 1fr 1fr;
+	width: 100%;
+	height: 40vh;
+	background-color: #e2e8f4;
+	background-image: url(./Images/skeleton.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.skeleton-section1 {
+}
+
+.skeleton-section2 {
+	background-color: #e2e8f4;
+	align-self: center;
+}
+
+.skeleton-section2-text {
+	display: flex;
+	align-self: center;
+	flex-direction: column;
+}
+
+.skeleton-section2 h3 {
+	margin: 30px 0 30px 0;
+	width: 30%;
+}
+
+.skeleton-section2 p {
+	margin: 0 0 30px 0;
+	width: 40%;
+}
+
+.skeleton-section2 img {
+	height: 85px;
+}
+
+.review {
+	display: flex;
+}
+
+.review-text {
+	align-self: center;
+	margin: 0 0 0 20px;
+	padding: 0;
+}
+
+.review-text h5 {
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+
+.review-text i {
+	margin: 0 2px;
+	color: orange;
 }
