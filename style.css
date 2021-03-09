@@ -408,9 +408,6 @@ p {
 	background-repeat: no-repeat;
 }
 
-.skeleton-section1 {
-}
-
 .skeleton-section2 {
 	background-color: #e2e8f4;
 	align-self: center;
@@ -455,3 +452,25 @@ p {
 	margin: 0 2px;
 	color: orange;
 }
+
+.doctor-grid {
+	width: 1300px;
+	height: 50vh;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(6, 196px);
+	grid-template-rows: 196px 196px;
+	column-gap: 20px;
+	row-gap: 20px;
+}
+
+/* .overlay {
+	width: 196px;
+	height: 196px;
+	background: black;
+	opacity: 0.4;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+} */
