@@ -324,6 +324,14 @@ footer {
 
 .footer-section1 p {
   width: 60%;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.footer-section1 i {
+  font-size: 20px;
+  margin: 20px 15px 0 0;
+  cursor: pointer;
 }
 
 .footer-section2 h5,
@@ -337,11 +345,14 @@ p {
 .footer-section2 p {
   margin: 30px 0;
   cursor: pointer;
+  padding: 0;
+  cursor: pointer;
 }
 
 .blog-post {
   display: flex;
   margin: 30px 0;
+  cursor: pointer;
 }
 .blog-post img {
   height: 50px;
@@ -349,9 +360,6 @@ p {
 
 .blog-text {
   align-self: center;
-}
-
-.footer-section4 {
 }
 
 .footer-section4 form {
@@ -376,6 +384,7 @@ p {
   background-color: white;
   display: flex;
   margin: auto;
+  cursor: pointer;
 }
 
 .form-group {
@@ -384,4 +393,5 @@ p {
   height: auto;
   margin-top: 30px;
   align-self: center;
+  cursor: pointer;
 }
